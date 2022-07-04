@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn btn__add-big" id="btn-show">Add new expense</button>
+        <div class="create-expense">
+            <input type="text" placeholder="Expense title" class="create-expense__input">
+            <input type="number" min="1" placeholder="Amount" class="create-expense__input">
+            <input type="date" class="create-expense__input">
+            <div class="btn-group">
+                <button class="btn btn__cancel">Cancel</button>
+                <button class="btn btn__add">Add expense</button>
+            </div>
+        </div>
+        <div class="table-container">
+            <div class="table-container__inner">
+                <table class="table">
+                    <caption class="table__caption">Expense List (<span class="num-of-items">0</span>)</caption>
+                    <tbody>
+                        <!-- <tr class="expense">
+                            <td class="expense__date">
+                                <div>
+                                    <span class="expense__date-day">2</span>
+                                    <span class="expense__date-month">June</span>
+                                    <span class="expense__date-year">2022</span>
+                                </div>
+                            </td>
+                            <td class="expense__title">Laptop</td>
+                            <td class="expense__amount">$1250</td>
+                            <td class="expense__remove"><button>Remove</button></td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- <span class="exmpl">Hello</span> -->
+    <script src="tracker.js"></script>
+    <script>
+        const btnVal = document.getElementById('btn-show').innerText;
+
+    //    document.querySelector('.exmpl').innerHTML += '<span>Hi</span>';
+
+       let count = 1;
+
+       count = count + 1;
+
+       count +=1;
+
+        // console.log(btnVal)
+    </script>
+</body>
+
+</html>
