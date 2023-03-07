@@ -83,7 +83,7 @@ function newExpense(title, amount, date) {
                 </div>
             </td>
             <td class="expense__title">${title}</td>
-            <td class="expense__amount">${amount}hrs</td>
+            <td class="expense__amount">$${amount}</td>
             <td class="expense__remove"><button class="remove-btn">Remove</button></td>
         </tr>
     `);
